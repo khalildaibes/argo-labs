@@ -23,7 +23,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_vote:latest
+      - image: dockersamples/examplevotingapp_vote:before
         name: vote
         imagePullPolicy: Always
         resources: 
